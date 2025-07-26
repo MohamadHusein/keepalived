@@ -124,7 +124,7 @@ iptables -nL | grep 112
 
 ## Keepalived Master/Backup Scenario on Server 1 and 2
 
-![Master/Backup](master.png)
+![Master/Backup](keepalived-active-passive.png)
 
 **config keepalived on Master node:**
 
@@ -234,7 +234,7 @@ ip -br -c a
 
 ## Keepalived Master/Master Scenario on Server 1 and 2
 
-![Master/Master](2master.png)
+![Master/Master](keepalived-active-active.png)
 
 **config keepalived on Master node1:**
 
@@ -386,7 +386,7 @@ ip -br -c a
 
 ## Keepalived Master/Master/Master Scenario on Server 1,2 and 3
 
-![Master/Master/Master](3master.png)
+![Master/Master/Master](keepalived-active-active-3nodes.png)
 
 **config keepalived on node1:**
 
